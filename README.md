@@ -17,9 +17,6 @@ Develop a chatbot using VoiceFlow that:
   - **API Blocks:** Utilize VoiceFlow’s API blocks to integrate with external APIs, fetching data dynamically to create personalized experiences.
   - **Webhooks:** Implement webhooks to trigger external services or update databases in real-time based on user interactions.
 
-- **Custom Code Blocks:**
-  - **JavaScript Support:** Use VoiceFlow's custom code blocks to write JavaScript for complex operations, data manipulation, or adding custom logic not supported natively. This extends the chatbot's functionality.
-
 - **State Management:**
   - **Variables and State Management:** Manage user states and variables across sessions to maintain context and provide personalized experiences, such as remembering user preferences or handling multi-turn conversations.
   - **Global Variables:** Define global variables accessible across different parts of the conversation for consistent data management.
@@ -28,22 +25,19 @@ Develop a chatbot using VoiceFlow that:
   - **Custom Intents and Entities:** Define custom intents and entities to handle domain-specific queries accurately.
   - **Natural Language Commands:** Enable natural language commands for more conversational and intuitive user interactions.
 
-- **Multimodal and Multi-Platform Support:**
-  - **Cross-Platform Deployment:** Build a chatbot deployable across multiple platforms (e.g., Amazon Alexa, Google Assistant, web chat interfaces) using VoiceFlow’s multi-platform support.
-  - **Visual and Audio Content:** Incorporate multimedia elements like audio files, SSML for customized voice output, and visual elements for devices with screens.
-
 - **Integration with LLMs and AI Models:**
   - **AI Model Integration:** Integrate with large language models (LLMs) like OpenAI’s GPT to handle complex queries, generate natural responses, and manage unstructured questions.
 
 **Data and Tools:**
 
 - **Data:**
-  - **External API Documentation:** Participants should integrate with the ServiceNow public API and review the API documentation to understand endpoints and data formats. Establish a “free” developer environment as per Appendix A.
+  - **External API Documentation:** Participants should integrate with the ServiceNow public API and review the API documentation [https://developer.servicenow.com/dev.do#!/reference%23now-platform-apis](https://developer.servicenow.com/dev.do#!/reference%23now-platform-apis) to understand endpoints and data formats. Establish a “free” developer environment as per Appendix A.
   - **Example Datasets:** Use sample datasets or JSON outputs from the chosen API for testing and validating the chatbot’s functionality.
 
 - **Tools:**
-  - **VoiceFlow Platform:** Use VoiceFlow to create the chatbot, design conversational flows, integrate APIs, and deploy across multiple platforms.
-  - **OpenAI GPT (or other LLMs):** Utilize LLMs for NLP tasks, understanding user intents, and generating responses for unstructured and open-ended questions.
+  - **VoiceFlow Platform:** [VoiceFlow](https://www.voiceflow.com/) is used to create the chatbot, design conversational flows, integrate APIs, and deploy across multiple platforms.
+  - **OpenAI GPT (or other LLMs):** Utilize large language models (LLMs) like [OpenAI GPT](https://openai.com) for NLP tasks, understanding user intents, and generating responses for unstructured and open-ended questions.
+  - **ServiceNow Public API:** Use the [ServiceNow API](https://developer.servicenow.com/dev.do#!/reference%23now-platform-apis) to access and manage data in real-time from ServiceNow services, integrating this functionality into the chatbot.
 
 **Data Flow and Functionality:**
 
@@ -77,10 +71,6 @@ Develop a chatbot using VoiceFlow that:
 - **API Integration:**
   - Demonstrate integration with at least one external API.
   - Ensure robust error handling and user-friendly messaging when API calls fail or data is unavailable.
-
-- **Custom Code Implementation:**
-  - Utilize JavaScript within VoiceFlow for advanced operations and data handling.
-  - Extend the chatbot’s functionality beyond native capabilities using custom logic.
 
 - **State Management:**
   - Implement state management to maintain context and deliver personalized experiences.
